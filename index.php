@@ -1,31 +1,38 @@
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESTILO CSS</title>
+    <title>Anna Bela</title>
     <link rel="stylesheet" href="style/style.css">
-
-   
+    <img src="img/capa.png" alt="">
 </head>
 <body>
-    <div id="cab">
-        <img src="img/amazon.png">
-        <ul>
-            <li>Home</li>
-            <li>Produtos</li>
-            <li>Contatos</li>
-        </ul>
-    </div>
-    <div id="corp">
-        <div class="prod">Produto 1</div>
-        <div class="prod">Produto 2</div>
-        <div class="prod">Produto 3</div>
-    </div>
-    <div id="rodape">
-        All Right Reserved ©
+    <div id="principal">
+        <div id='menu'>
+            <ul>
+                <a href="index.php">Home |</a>
+                <a href="biografia.php">BIOGRAFIA |</a>
+                <a href="campanha.php">CAMPANHAS PUBLICITÁRIAS |</a>
+                <a href="contato.php">CONTATOS</a>
+            </ul>
+        </div>
+        <div id="conteudo">
+            <h1>
+                  Sobre Anna Bella
+            </h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+        </div>
+        <div id="rodape">
+                <h4>Todos os direitos reservados ©</h4>
+        </div>
     </div>
 </body>
 </html>
-
-
